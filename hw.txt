@@ -221,7 +221,3 @@ Listen 8080
     email VARCHAR(100) NOT NULL
 );
 - ctrl + d
-
-•* Установить пакет phpmyadmin и запустить его веб-интерфейс для управления MySQL.
-
-•* Настроить схему балансировки трафика между несколькими серверами Apache на стороне Nginx с помощью модуля ngx_http_upstream_module.

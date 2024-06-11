@@ -211,6 +211,16 @@ Listen 8080
 - vi /etc/apache2/apache2.conf
 (в него нужно добавить ServerName localhost)
 • Установить MySQL. Создать новую базу данных и таблицу в ней.
+- apt install mysql-server
+- mysql -u root -p
+- CREATE DATABASE mydatabase;
+- USE mydatabase;
+-	CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL
+);
+- ctrl + d
 
 •* Установить пакет phpmyadmin и запустить его веб-интерфейс для управления MySQL.
 
